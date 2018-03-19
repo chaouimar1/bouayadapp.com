@@ -61,7 +61,8 @@ body {
     padding-top: 10rem;
 }
 
-.about_section .card-panel {
+.about_section .card-panel,
+.header_section .card-panel {
     padding: 2em 3em 2em;
 }
 
