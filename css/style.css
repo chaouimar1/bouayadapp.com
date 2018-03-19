@@ -81,6 +81,7 @@ body {
     .fixed-action-btn {
         right: 12%;
         top: 7.7rem;
+        position: absolute;
     }
 }
 
@@ -88,5 +89,6 @@ body {
     .fixed-action-btn {
         right: 25%;
         top: 7.7rem;
+        position: absolute;
     }
 }
