@@ -60,3 +60,33 @@ body {
 .section {
     padding-top: 10rem;
 }
+
+.about_section .card-panel {
+    padding: 2em 3em 2em;
+}
+
+.about_section h4 {
+    padding-bottom: .75em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .fixed-action-btn {
+        right: 12%;
+        bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .fixed-action-btn {
+        right: 12%;
+        top: 7.7rem;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .fixed-action-btn {
+        right: 25%;
+        top: 7.7rem;
+    }
+}
