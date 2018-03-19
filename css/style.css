@@ -69,6 +69,7 @@ body {
 }
 
 .about_section .card-panel,
+.developer_section .card-panel,
 .header_section .card-panel {
     padding: 2em 3em 2em;
 }
@@ -82,6 +83,14 @@ body {
     .fixed-action-btn {
         right: 12%;
         bottom: 50px;
+    }
+
+    .developer_section {
+        text-align: center;
+    }
+
+    .developer_section .paddingleft {
+        padding: 0 !important;
     }
 }
 
