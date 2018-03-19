@@ -6,9 +6,57 @@
  * Made By MaterializeCSS.com
  */
 
-.icon-block {
-  padding: 0 15px;
+body {
+  background-image: url('../img/moroccanTexture.png');
+  background-repeat: repeat-x repeat-y;
+  background-color: white;
 }
-.icon-block .material-icons {
-	font-size: inherit;
+
+@media only screen and (min-width: 993px) {
+  .container {
+      width: 60%;
+  }
+}
+
+.icon-and-title-flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.appicon {
+    width: 152px;
+    height: 152px;
+    margin-right: 2em;
+    border-radius: 5px;
+}
+
+.text-title {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #555;
+}
+
+.intertext-padding {
+    height: 0.4em !important;
+}
+
+.text-subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #777;
+}
+
+.text-description {
+    word-wrap: break-word;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #111;
+}
+
+.section {
+    padding-top: 10rem;
 }
