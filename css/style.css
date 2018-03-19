@@ -33,6 +33,13 @@ body {
     border-radius: 5px;
 }
 
+.meruc {
+    width: 152px;
+    height: 152px;
+    margin-right: 2em;
+    border-radius: 100px;
+}
+
 .text-title {
     font-size: 2.5em;
     font-weight: 300;
@@ -92,4 +99,18 @@ body {
         top: 7.7rem;
         position: absolute;
     }
+}
+
+.paddingleft {
+    padding-left: 3em !important;
+}
+
+.paddingleft h4{
+    padding-bottom: 0;
+}
+
+.paddingleft h4,
+.paddingleft h5,
+.paddingleft i {
+    color: #555;
 }
