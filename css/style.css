@@ -84,6 +84,7 @@ body {
     .fixed-action-btn {
         right: 12%;
         top: 7.7rem;
+        position: absolute;
     }
 
     .developer_section {
@@ -103,6 +104,7 @@ body {
     .fixed-action-btn {
         right: 12%;
         top: 7.7rem;
+        position: absolute;
     }
 }
 
@@ -110,6 +112,7 @@ body {
     .fixed-action-btn {
         right: 23%;
         top: 7.7rem;
+        position: absolute;
     }
 }
 
