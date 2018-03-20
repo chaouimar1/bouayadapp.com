@@ -1,8 +1,6 @@
 (function($){
   $(function(){
     
-    $('.materialboxed').materialbox();
-
     var options = [
       {
         selector: '.about_section', offset: 200, callback: function (el) {
