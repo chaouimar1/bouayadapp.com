@@ -24,9 +24,6 @@ body {
     display: flex;
 }
 
-.title-container {
-}
-
 .appicon {
     width: 120px !important;
     height: 120px;
@@ -86,7 +83,7 @@ body {
 @media only screen and (max-width: 600px) {
     .fixed-action-btn {
         right: 12%;
-        bottom: 50px;
+        top: 7.7rem;
     }
 
     .developer_section {
@@ -106,7 +103,6 @@ body {
     .fixed-action-btn {
         right: 12%;
         top: 7.7rem;
-        position: absolute;
     }
 }
 
@@ -114,7 +110,6 @@ body {
     .fixed-action-btn {
         right: 23%;
         top: 7.7rem;
-        position: absolute;
     }
 }
 
