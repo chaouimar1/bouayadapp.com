@@ -22,25 +22,31 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .appicon {
     width: 120px !important;
     height: 120px;
     border-radius: 5px;
+    flex: 2;
 }
 
 .meruc {
     width: 152px;
     height: 152px;
     margin-right: 2em;
-    border-radius: 100px;
 }
 
 .text-title {
     font-size: 2em;
     font-weight: 300;
     color: #555;
+}
+
+.title-container{
+    flex: 12;
+    text-align: right;
 }
 
 .intertext-padding {
@@ -59,6 +65,7 @@ body {
     font-weight: 400;
     line-height: 1.5em;
     color: #111;
+    float: right;
 }
 
 .section {
@@ -102,7 +109,7 @@ body {
 
 @media only screen and (min-width: 601px) {
     .fixed-action-btn {
-        right: 12%;
+        left: 12%;
         top: 7.7rem;
         position: absolute;
     }
@@ -110,7 +117,7 @@ body {
 
 @media only screen and (min-width: 993px) {
     .fixed-action-btn {
-        right: 23%;
+        left: 23%;
         top: 7.7rem;
         position: absolute;
     }
