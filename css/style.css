@@ -76,12 +76,6 @@ body {
     padding: 0 .5rem;
 }
 
-.about_section .card-panel,
-.developer_section .card-panel,
-.header_section .card-panel {
-    padding: 2em 3em 2em;
-}
-
 .about_section h4 {
     padding-bottom: .75em;
 }
@@ -139,4 +133,12 @@ body {
 
 .screenshots_section .col {
     padding: 0.25rem .25rem !important;
+}
+
+.screenshots_section .col img {
+    transition: transform 1s;
+}
+
+.screenshots_section .col img:hover {
+    transform: scale(1.05);
 }
