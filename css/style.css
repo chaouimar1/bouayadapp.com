@@ -142,3 +142,7 @@ body {
 .screenshots_section .col img:hover {
     transform: scale(1.05);
 }
+
+.app {
+    padding-bottom: 35px !important;
+}
